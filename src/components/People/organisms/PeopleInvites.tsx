@@ -44,9 +44,9 @@ export default function PeopleInvites(): JSX.Element {
 
   var invitesData = [
       {
-          name:'Jim Smith',
-          jobTitle:'Doctor',
-          src:'./profilePic1.jpg'
+        name:'Jim Smith',
+        jobTitle:'Doctor',
+        src:'./profilePic1.jpg'
       },
       {
         name:'Dan Jones',
@@ -75,7 +75,7 @@ export default function PeopleInvites(): JSX.Element {
         </Typography>
         <Divider />
         <List className={classes.list} disablePadding>
-            {invitesData.map((invite , i) => 
+            {invitesData?.length > 0 && invitesData.map((invite , i) => 
                 <PeopleListItem 
                     name={invite.name} 
                     src={invite.src} 

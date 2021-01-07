@@ -7,12 +7,11 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Icon from '../atoms/ContactIcon';
 import Typography from '@material-ui/core/Typography';
 
-const useStyles = makeStyles((theme: Theme) =>
+const useStyles = makeStyles(() =>
   createStyles({
     root: {
       padding:0,
       marginTop:0,
-      backgroundColor: theme.palette.paper.main
     },
     primaryText:{
       textTransform: 'capitalize',
