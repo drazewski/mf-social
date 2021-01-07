@@ -12,7 +12,7 @@
         "outDir": "dist",
         "allowSyntheticDefaultImports": true,
         "resolveJsonModule": true,
-        "skipLibCheck": true,
+        "skipLibCheck": true
     },
     "include": ["**/*.ts", "**/*.tsx",],
     "exclude": ["node_modules", "**/*.test.tsx"]
