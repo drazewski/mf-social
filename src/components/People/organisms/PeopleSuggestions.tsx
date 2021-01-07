@@ -28,9 +28,13 @@ const useStyles = makeStyles((theme: Theme) =>
       padding:'16px'
     },
     link: {
-      float:'right',
-      padding:'16px',
+      position:'absolute',
+      right:'16px',
+      top:'16px',
       color:'#317CD5'
+    },
+    paper:{
+      position:'relative'
     }
   }),
 );
@@ -60,7 +64,7 @@ export default function PeopleSuggestions(): JSX.Element {
 
   return (
     <div className={classes.root}>
-      <Paper>
+      <Paper className={classes.paper}>
         <Typography variant="h2" className={classes.header}>
             Suggestions
         </Typography>
