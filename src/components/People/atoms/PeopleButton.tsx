@@ -32,7 +32,7 @@ export interface PeopleButtonProps {
     action: () => void;
 }
 
-export default function PeopleButton(props: PeopleButtonProps) {
+export default function PeopleButton(props: PeopleButtonProps): JSX.Element {
   const classes = useStyles();
 
   const buttonColorClass = (): string => {

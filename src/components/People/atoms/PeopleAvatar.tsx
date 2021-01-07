@@ -23,7 +23,7 @@ export interface PeopleAvatarProps {
     src: string;
 }
 
-export default function PeopleAvatar(props: PeopleAvatarProps) {
+export default function PeopleAvatar(props: PeopleAvatarProps): JSX.Element {
   const classes = useStyles();
 
   return (
