@@ -14,12 +14,11 @@ const useStyles = makeStyles((theme: Theme) =>
       flexWrap: 'nowrap',
     },
     sidebarDrawerPaper: {
-      padding: theme.spacing(0, 2, 6),
-      top: 48,
+      padding: theme.spacing(2, 2, 6),
       maxWidth: 390,
       minWidth: 260,
       width: 'calc(25% - 12px)',
-      zIndex: 1000,
+      zIndex: 1000, 
       [theme.breakpoints.down('xs')]: {
         width: '33%',
         minWidth: 0,
