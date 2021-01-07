@@ -3,8 +3,14 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import {lightTheme} from '../src/themes/lightTheme';
 import {darkTheme} from '../src/themes/darkTheme';
 
+import { select } from "@storybook/addon-knobs";
+
+const label = 'Choose Theme';
+const options = { Light:lightTheme, Dark:darkTheme };
+const defaultValue = lightTheme;
+
 const ThemeDecorator = storyFn => (
-  <ThemeProvider theme={darkTheme}>{storyFn()}</ThemeProvider>
+  <ThemeProvider theme={select(label, options, defaultValue)}>{storyFn()}</ThemeProvider>
 )
 
 export default ThemeDecorator

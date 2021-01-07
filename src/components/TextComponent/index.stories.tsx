@@ -4,7 +4,7 @@ import Index from './index';
 import { withKnobs } from "@storybook/addon-knobs";
 
 export default {
-    title: 'Example/TextComponent',
+    title: 'Test/Index',
     component: Index,
     argTypes: {
       backgroundColor: { control: 'color' },
@@ -14,4 +14,4 @@ export default {
 
 const Template: Story = (args) => <Index />;
 
-export const Primary = Template.bind({});
+export const TextComponent = Template.bind({});
