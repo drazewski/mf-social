@@ -14,16 +14,17 @@ const useStyles = makeStyles((theme: Theme) =>
       marginTop:0,
       backgroundColor: theme.palette.paper.main
     },
-    inline: {
-      display: 'inline',
-      color:'#888888',
-      textTransform: 'lowercase',
-      fontSize: '12px',
-    },
     primaryText:{
       textTransform: 'capitalize',
       '& span': {
         fontSize: '14px',
+        fontWeight: '600',
+        color: 'black',
+      },
+      '& p': {
+        fontSize: '12px',
+        color:'#888888',
+        textTransform: 'lowercase',
       }
     },
     divider:{
@@ -63,16 +64,7 @@ export default function ContactListItem(props: ContactListItemProps) {
         <ListItemText
           primary={props.type}
           className={classes.primaryText}
-          secondary={
-            <>
-              <Typography
-                className={classes.inline}
-                color="textPrimary"
-              >
-                {`${props.peopleNumber} ${renderText(props.type)}`}
-              </Typography>
-            </>
-          }
+          secondary={`${props.peopleNumber} ${renderText(props.type)}`}
         />
       </ListItem>
       <Divider variant="inset" className={classes.divider} />
