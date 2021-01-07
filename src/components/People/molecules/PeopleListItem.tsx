@@ -32,7 +32,8 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     buttonContainer:{
         width:'100%',
-        marginTop:'16px'
+        marginTop:'5px',
+        marginRight:'-12px'
     }
 
   }),
@@ -47,12 +48,12 @@ export interface PeopleListItemProps {
     src: string;
 }
 
-export default function PeopleListItem(props: PeopleListItemProps) {
+export default function PeopleListItem(props: PeopleListItemProps): JSX.Element {
   const classes = useStyles();
 
   return (
     <>
-      <ListItem alignItems="flex-start" className={classes.root}>
+      <ListItem alignItems="flex-start" className={classes.root} disableGutters>
         <ListItemAvatar className={classes.Avatar}>
           <Avatar name={props.name} src={props.src} />
         </ListItemAvatar>
