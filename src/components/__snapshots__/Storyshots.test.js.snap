@@ -1465,21 +1465,935 @@ exports[`Storyshots People/Organisms/PeopleSuggestions Suggestions 1`] = `
 </div>
 `;
 
-exports[`Storyshots People/Templates/PeopleLists Lists 1`] = `
-Array [
+exports[`Storyshots People/Pages/PeoplePage People Page With Layout 1`] = `
+<div
+  className="MuiContainer-root makeStyles-root-117 MuiContainer-maxWidthLg"
+>
   <div
-    className="makeStyles-root-117"
+    className="MuiContainer-root MuiContainer-disableGutters"
   >
     <div
-      className="MuiPaper-root makeStyles-paper-121 MuiPaper-elevation1 MuiPaper-rounded"
+      className="MuiGrid-root makeStyles-container-118 MuiGrid-container"
+    >
+      <div
+        className="MuiGrid-root makeStyles-sidebar-120 MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-sm-3"
+      >
+        <div
+          className="MuiDrawer-root MuiDrawer-docked"
+        >
+          <div
+            className="MuiPaper-root MuiDrawer-paper makeStyles-sidebarDrawerPaper-119 MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft MuiPaper-elevation0"
+          >
+            <div>
+              <header
+                className="sc-bdfBwQ gQFnY"
+              >
+                <h1
+                  className="MuiTypography-root makeStyles-title-121 MuiTypography-h1"
+                >
+                  People
+                </h1>
+                <h3
+                  className="MuiTypography-root makeStyles-subtitle-122 MuiTypography-h3"
+                >
+                  20 contacts
+                </h3>
+              </header>
+              <div>
+                <h3
+                  className="MuiTypography-root makeStyles-header-123 MuiTypography-h3"
+                >
+                  My Contacts
+                </h3>
+                <hr
+                  className="MuiDivider-root makeStyles-divider-124 MuiDivider-inset"
+                />
+                <div>
+                  <li
+                    className="MuiListItem-root makeStyles-root-125 MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+                    disabled={false}
+                  >
+                    <div
+                      className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
+                    >
+                      <div
+                        className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-128 MuiAvatar-colorDefault"
+                      >
+                        <svg
+                          aria-hidden={true}
+                          className="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      className="MuiListItemText-root makeStyles-primaryText-126 MuiListItemText-multiline"
+                    >
+                      <span
+                        className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                      >
+                        connections
+                      </span>
+                      <p
+                        className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                      >
+                        20 contacts
+                      </p>
+                    </div>
+                  </li>
+                  <hr
+                    className="MuiDivider-root makeStyles-divider-127 MuiDivider-inset"
+                  />
+                  <li
+                    className="MuiListItem-root makeStyles-root-125 MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+                    disabled={false}
+                  >
+                    <div
+                      className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
+                    >
+                      <div
+                        className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-128 MuiAvatar-colorDefault"
+                      >
+                        <svg
+                          aria-hidden={true}
+                          className="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      className="MuiListItemText-root makeStyles-primaryText-126 MuiListItemText-multiline"
+                    >
+                      <span
+                        className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                      >
+                        invites
+                      </span>
+                      <p
+                        className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                      >
+                        10 received
+                      </p>
+                    </div>
+                  </li>
+                  <hr
+                    className="MuiDivider-root makeStyles-divider-127 MuiDivider-inset"
+                  />
+                  <li
+                    className="MuiListItem-root makeStyles-root-125 MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+                    disabled={false}
+                  >
+                    <div
+                      className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
+                    >
+                      <div
+                        className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-128 MuiAvatar-colorDefault"
+                      >
+                        <div
+                          className="makeStyles-suggestWrapper-129"
+                        >
+                          <svg
+                            aria-hidden={true}
+                            className="MuiSvgIcon-root makeStyles-suggestPeopleIcon-130 MuiSvgIcon-fontSizeSmall"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M16.67 13.13C18.04 14.06 19 15.32 19 17v3h4v-3c0-2.18-3.57-3.47-6.33-3.87z"
+                              fillRule="evenodd"
+                            />
+                            <circle
+                              cx="9"
+                              cy="8"
+                              fillRule="evenodd"
+                              r="4"
+                            />
+                            <path
+                              d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4c-.47 0-.91.1-1.33.24C14.5 5.27 15 6.58 15 8s-.5 2.73-1.33 3.76c.42.14.86.24 1.33.24zM9 13c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"
+                              fillRule="evenodd"
+                            />
+                          </svg>
+                          <svg
+                            aria-hidden={true}
+                            className="MuiSvgIcon-root makeStyles-suggestSearchIcon-131 MuiSvgIcon-fontSizeSmall"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="MuiListItemText-root makeStyles-primaryText-126 MuiListItemText-multiline"
+                    >
+                      <span
+                        className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                      >
+                        suggested
+                      </span>
+                      <p
+                        className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                      >
+                        200 suggested
+                      </p>
+                    </div>
+                  </li>
+                  <hr
+                    className="MuiDivider-root makeStyles-divider-127 MuiDivider-inset"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 MuiGrid-grid-sm-11"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-md-12"
+        >
+          <div
+            className="MuiContainer-root MuiContainer-maxWidthLg"
+          >
+            <div
+              className="makeStyles-root-132"
+            >
+              <div
+                className="MuiPaper-root makeStyles-paper-136 MuiPaper-elevation1 MuiPaper-rounded"
+              >
+                <h2
+                  className="MuiTypography-root makeStyles-header-134 MuiTypography-h2"
+                >
+                  Invites
+                </h2>
+                <p
+                  className="MuiTypography-root makeStyles-link-135 MuiTypography-body1"
+                >
+                  <a
+                    className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="#"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    style={
+                      Object {
+                        "color": "#317CD5",
+                      }
+                    }
+                  >
+                    See all 10
+                  </a>
+                </p>
+                <hr
+                  className="MuiDivider-root"
+                />
+                <ul
+                  className="MuiList-root makeStyles-list-133"
+                >
+                  <li
+                    className="MuiListItem-container"
+                  >
+                    <div
+                      className="MuiListItem-root makeStyles-root-137 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
+                      disabled={false}
+                    >
+                      <div
+                        className="MuiListItemAvatar-root makeStyles-Avatar-141 MuiListItemAvatar-alignItemsFlexStart"
+                      >
+                        <div
+                          className="makeStyles-root-143"
+                        >
+                          <div
+                            className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-144"
+                          >
+                            <img
+                              className="MuiAvatar-img"
+                              src="./profilePic1.jpg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="MuiListItemText-root makeStyles-primaryText-139 MuiListItemText-multiline"
+                      >
+                        <span
+                          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                        >
+                          Jim Smith
+                        </span>
+                        <p
+                          className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                        >
+                          <span
+                            className="MuiTypography-root makeStyles-inline-138 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                          >
+                            Doctor
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-142"
+                    >
+                      <div>
+                        <button
+                          className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-145 makeStyles-green-146 MuiButton-containedSecondary"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex={0}
+                          type="button"
+                        >
+                          <span
+                            className="MuiButton-label"
+                          >
+                            <span
+                              className="MuiButton-startIcon MuiButton-iconSizeMedium"
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                                />
+                              </svg>
+                            </span>
+                            Accept
+                          </span>
+                        </button>
+                      </div>
+                      <div>
+                        <button
+                          className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-145 makeStyles-none-148 MuiButton-textSecondary"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex={0}
+                          type="button"
+                        >
+                          <span
+                            className="MuiButton-label"
+                          >
+                            Decline
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <div
+                    className="MuiDivider-root makeStyles-divider-140 MuiDivider-inset"
+                    role="separator"
+                  />
+                  <li
+                    className="MuiListItem-container"
+                  >
+                    <div
+                      className="MuiListItem-root makeStyles-root-137 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
+                      disabled={false}
+                    >
+                      <div
+                        className="MuiListItemAvatar-root makeStyles-Avatar-141 MuiListItemAvatar-alignItemsFlexStart"
+                      >
+                        <div
+                          className="makeStyles-root-143"
+                        >
+                          <div
+                            className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-144"
+                          >
+                            <img
+                              className="MuiAvatar-img"
+                              src="./profilePic9.jpg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="MuiListItemText-root makeStyles-primaryText-139 MuiListItemText-multiline"
+                      >
+                        <span
+                          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                        >
+                          Dan Jones
+                        </span>
+                        <p
+                          className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                        >
+                          <span
+                            className="MuiTypography-root makeStyles-inline-138 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                          >
+                            Consultant
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-142"
+                    >
+                      <div>
+                        <button
+                          className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-145 makeStyles-green-146 MuiButton-containedSecondary"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex={0}
+                          type="button"
+                        >
+                          <span
+                            className="MuiButton-label"
+                          >
+                            <span
+                              className="MuiButton-startIcon MuiButton-iconSizeMedium"
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                                />
+                              </svg>
+                            </span>
+                            Accept
+                          </span>
+                        </button>
+                      </div>
+                      <div>
+                        <button
+                          className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-145 makeStyles-none-148 MuiButton-textSecondary"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex={0}
+                          type="button"
+                        >
+                          <span
+                            className="MuiButton-label"
+                          >
+                            Decline
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <div
+                    className="MuiDivider-root makeStyles-divider-140 MuiDivider-inset"
+                    role="separator"
+                  />
+                  <li
+                    className="MuiListItem-container"
+                  >
+                    <div
+                      className="MuiListItem-root makeStyles-root-137 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
+                      disabled={false}
+                    >
+                      <div
+                        className="MuiListItemAvatar-root makeStyles-Avatar-141 MuiListItemAvatar-alignItemsFlexStart"
+                      >
+                        <div
+                          className="makeStyles-root-143"
+                        >
+                          <div
+                            className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-144"
+                          >
+                            <img
+                              className="MuiAvatar-img"
+                              src="./profilePic2.jpg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="MuiListItemText-root makeStyles-primaryText-139 MuiListItemText-multiline"
+                      >
+                        <span
+                          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                        >
+                          Pete Bloggs
+                        </span>
+                        <p
+                          className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                        >
+                          <span
+                            className="MuiTypography-root makeStyles-inline-138 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                          >
+                            Consultant
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-142"
+                    >
+                      <div>
+                        <button
+                          className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-145 makeStyles-green-146 MuiButton-containedSecondary"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex={0}
+                          type="button"
+                        >
+                          <span
+                            className="MuiButton-label"
+                          >
+                            <span
+                              className="MuiButton-startIcon MuiButton-iconSizeMedium"
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                                />
+                              </svg>
+                            </span>
+                            Accept
+                          </span>
+                        </button>
+                      </div>
+                      <div>
+                        <button
+                          className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-145 makeStyles-none-148 MuiButton-textSecondary"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex={0}
+                          type="button"
+                        >
+                          <span
+                            className="MuiButton-label"
+                          >
+                            Decline
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <div
+                    className="MuiDivider-root makeStyles-divider-140 MuiDivider-inset"
+                    role="separator"
+                  />
+                </ul>
+              </div>
+            </div>
+            <div
+              className="makeStyles-root-149"
+            >
+              <div
+                className="MuiPaper-root makeStyles-paper-153 MuiPaper-elevation1 MuiPaper-rounded"
+              >
+                <h2
+                  className="MuiTypography-root makeStyles-header-151 MuiTypography-h2"
+                >
+                  Suggestions
+                </h2>
+                <p
+                  className="MuiTypography-root makeStyles-link-152 MuiTypography-body1"
+                >
+                  <a
+                    className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="#"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    style={
+                      Object {
+                        "color": "#317CD5",
+                      }
+                    }
+                  >
+                    See all 10
+                  </a>
+                </p>
+                <hr
+                  className="MuiDivider-root"
+                />
+                <ul
+                  className="MuiList-root makeStyles-list-150"
+                >
+                  <li
+                    className="MuiListItem-container"
+                  >
+                    <div
+                      className="MuiListItem-root makeStyles-root-137 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
+                      disabled={false}
+                    >
+                      <div
+                        className="MuiListItemAvatar-root makeStyles-Avatar-141 MuiListItemAvatar-alignItemsFlexStart"
+                      >
+                        <div
+                          className="makeStyles-root-143"
+                        >
+                          <div
+                            className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-144"
+                          >
+                            <img
+                              className="MuiAvatar-img"
+                              src="./profilePic3.jpg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="MuiListItemText-root makeStyles-primaryText-139 MuiListItemText-multiline"
+                      >
+                        <span
+                          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                        >
+                          Jane Lane
+                        </span>
+                        <p
+                          className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                        >
+                          <span
+                            className="MuiTypography-root makeStyles-inline-138 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                          >
+                            Nurse
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-142"
+                    >
+                      <div>
+                        <button
+                          className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-145 makeStyles-blue-147 MuiButton-containedSecondary"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex={0}
+                          type="button"
+                        >
+                          <span
+                            className="MuiButton-label"
+                          >
+                            <span
+                              className="MuiButton-startIcon MuiButton-iconSizeMedium"
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                                />
+                              </svg>
+                            </span>
+                            Connect
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <div
+                    className="MuiDivider-root makeStyles-divider-140 MuiDivider-inset"
+                    role="separator"
+                  />
+                  <li
+                    className="MuiListItem-container"
+                  >
+                    <div
+                      className="MuiListItem-root makeStyles-root-137 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
+                      disabled={false}
+                    >
+                      <div
+                        className="MuiListItemAvatar-root makeStyles-Avatar-141 MuiListItemAvatar-alignItemsFlexStart"
+                      >
+                        <div
+                          className="makeStyles-root-143"
+                        >
+                          <div
+                            className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-144"
+                          >
+                            <img
+                              className="MuiAvatar-img"
+                              src="./profilePic9.jpg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="MuiListItemText-root makeStyles-primaryText-139 MuiListItemText-multiline"
+                      >
+                        <span
+                          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                        >
+                          Roger Bensen
+                        </span>
+                        <p
+                          className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                        >
+                          <span
+                            className="MuiTypography-root makeStyles-inline-138 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                          >
+                            Consultant
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-142"
+                    >
+                      <div>
+                        <button
+                          className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-145 makeStyles-blue-147 MuiButton-containedSecondary"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex={0}
+                          type="button"
+                        >
+                          <span
+                            className="MuiButton-label"
+                          >
+                            <span
+                              className="MuiButton-startIcon MuiButton-iconSizeMedium"
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                                />
+                              </svg>
+                            </span>
+                            Connect
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <div
+                    className="MuiDivider-root makeStyles-divider-140 MuiDivider-inset"
+                    role="separator"
+                  />
+                  <li
+                    className="MuiListItem-container"
+                  >
+                    <div
+                      className="MuiListItem-root makeStyles-root-137 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
+                      disabled={false}
+                    >
+                      <div
+                        className="MuiListItemAvatar-root makeStyles-Avatar-141 MuiListItemAvatar-alignItemsFlexStart"
+                      >
+                        <div
+                          className="makeStyles-root-143"
+                        >
+                          <div
+                            className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-144"
+                          >
+                            <img
+                              className="MuiAvatar-img"
+                              src="./profilePic4.jpg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="MuiListItemText-root makeStyles-primaryText-139 MuiListItemText-multiline"
+                      >
+                        <span
+                          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                        >
+                          Shirly Benn
+                        </span>
+                        <p
+                          className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                        >
+                          <span
+                            className="MuiTypography-root makeStyles-inline-138 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                          >
+                            Consultant
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-142"
+                    >
+                      <div>
+                        <button
+                          className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-145 makeStyles-blue-147 MuiButton-containedSecondary"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex={0}
+                          type="button"
+                        >
+                          <span
+                            className="MuiButton-label"
+                          >
+                            <span
+                              className="MuiButton-startIcon MuiButton-iconSizeMedium"
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                                />
+                              </svg>
+                            </span>
+                            Connect
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <div
+                    className="MuiDivider-root makeStyles-divider-140 MuiDivider-inset"
+                    role="separator"
+                  />
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots People/Templates/PeopleLists Lists 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-maxWidthLg"
+>
+  <div
+    className="makeStyles-root-154"
+  >
+    <div
+      className="MuiPaper-root makeStyles-paper-158 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <h2
-        className="MuiTypography-root makeStyles-header-119 MuiTypography-h2"
+        className="MuiTypography-root makeStyles-header-156 MuiTypography-h2"
       >
         Invites
       </h2>
       <p
-        className="MuiTypography-root makeStyles-link-120 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-link-157 MuiTypography-body1"
       >
         <a
           className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -1500,23 +2414,23 @@ Array [
         className="MuiDivider-root"
       />
       <ul
-        className="MuiList-root makeStyles-list-118"
+        className="MuiList-root makeStyles-list-155"
       >
         <li
           className="MuiListItem-container"
         >
           <div
-            className="MuiListItem-root makeStyles-root-122 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
+            className="MuiListItem-root makeStyles-root-159 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
             disabled={false}
           >
             <div
-              className="MuiListItemAvatar-root makeStyles-Avatar-126 MuiListItemAvatar-alignItemsFlexStart"
+              className="MuiListItemAvatar-root makeStyles-Avatar-163 MuiListItemAvatar-alignItemsFlexStart"
             >
               <div
-                className="makeStyles-root-128"
+                className="makeStyles-root-165"
               >
                 <div
-                  className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-129"
+                  className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-166"
                 >
                   <img
                     className="MuiAvatar-img"
@@ -1526,7 +2440,7 @@ Array [
               </div>
             </div>
             <div
-              className="MuiListItemText-root makeStyles-primaryText-124 MuiListItemText-multiline"
+              className="MuiListItemText-root makeStyles-primaryText-161 MuiListItemText-multiline"
             >
               <span
                 className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
@@ -1537,7 +2451,7 @@ Array [
                 className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
               >
                 <span
-                  className="MuiTypography-root makeStyles-inline-123 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                  className="MuiTypography-root makeStyles-inline-160 MuiTypography-body2 MuiTypography-colorTextPrimary"
                 >
                   Doctor
                 </span>
@@ -1545,11 +2459,11 @@ Array [
             </div>
           </div>
           <div
-            className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-127"
+            className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-164"
           >
             <div>
               <button
-                className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-130 makeStyles-green-131 MuiButton-containedSecondary"
+                className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-167 makeStyles-green-168 MuiButton-containedSecondary"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -1589,7 +2503,7 @@ Array [
             </div>
             <div>
               <button
-                className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-130 makeStyles-none-133 MuiButton-textSecondary"
+                className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-167 makeStyles-none-170 MuiButton-textSecondary"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -1616,24 +2530,24 @@ Array [
           </div>
         </li>
         <div
-          className="MuiDivider-root makeStyles-divider-125 MuiDivider-inset"
+          className="MuiDivider-root makeStyles-divider-162 MuiDivider-inset"
           role="separator"
         />
         <li
           className="MuiListItem-container"
         >
           <div
-            className="MuiListItem-root makeStyles-root-122 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
+            className="MuiListItem-root makeStyles-root-159 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
             disabled={false}
           >
             <div
-              className="MuiListItemAvatar-root makeStyles-Avatar-126 MuiListItemAvatar-alignItemsFlexStart"
+              className="MuiListItemAvatar-root makeStyles-Avatar-163 MuiListItemAvatar-alignItemsFlexStart"
             >
               <div
-                className="makeStyles-root-128"
+                className="makeStyles-root-165"
               >
                 <div
-                  className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-129"
+                  className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-166"
                 >
                   <img
                     className="MuiAvatar-img"
@@ -1643,7 +2557,7 @@ Array [
               </div>
             </div>
             <div
-              className="MuiListItemText-root makeStyles-primaryText-124 MuiListItemText-multiline"
+              className="MuiListItemText-root makeStyles-primaryText-161 MuiListItemText-multiline"
             >
               <span
                 className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
@@ -1654,7 +2568,7 @@ Array [
                 className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
               >
                 <span
-                  className="MuiTypography-root makeStyles-inline-123 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                  className="MuiTypography-root makeStyles-inline-160 MuiTypography-body2 MuiTypography-colorTextPrimary"
                 >
                   Consultant
                 </span>
@@ -1662,11 +2576,11 @@ Array [
             </div>
           </div>
           <div
-            className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-127"
+            className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-164"
           >
             <div>
               <button
-                className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-130 makeStyles-green-131 MuiButton-containedSecondary"
+                className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-167 makeStyles-green-168 MuiButton-containedSecondary"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -1706,7 +2620,7 @@ Array [
             </div>
             <div>
               <button
-                className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-130 makeStyles-none-133 MuiButton-textSecondary"
+                className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-167 makeStyles-none-170 MuiButton-textSecondary"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -1733,24 +2647,24 @@ Array [
           </div>
         </li>
         <div
-          className="MuiDivider-root makeStyles-divider-125 MuiDivider-inset"
+          className="MuiDivider-root makeStyles-divider-162 MuiDivider-inset"
           role="separator"
         />
         <li
           className="MuiListItem-container"
         >
           <div
-            className="MuiListItem-root makeStyles-root-122 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
+            className="MuiListItem-root makeStyles-root-159 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
             disabled={false}
           >
             <div
-              className="MuiListItemAvatar-root makeStyles-Avatar-126 MuiListItemAvatar-alignItemsFlexStart"
+              className="MuiListItemAvatar-root makeStyles-Avatar-163 MuiListItemAvatar-alignItemsFlexStart"
             >
               <div
-                className="makeStyles-root-128"
+                className="makeStyles-root-165"
               >
                 <div
-                  className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-129"
+                  className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-166"
                 >
                   <img
                     className="MuiAvatar-img"
@@ -1760,7 +2674,7 @@ Array [
               </div>
             </div>
             <div
-              className="MuiListItemText-root makeStyles-primaryText-124 MuiListItemText-multiline"
+              className="MuiListItemText-root makeStyles-primaryText-161 MuiListItemText-multiline"
             >
               <span
                 className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
@@ -1771,7 +2685,7 @@ Array [
                 className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
               >
                 <span
-                  className="MuiTypography-root makeStyles-inline-123 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                  className="MuiTypography-root makeStyles-inline-160 MuiTypography-body2 MuiTypography-colorTextPrimary"
                 >
                   Consultant
                 </span>
@@ -1779,11 +2693,11 @@ Array [
             </div>
           </div>
           <div
-            className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-127"
+            className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-164"
           >
             <div>
               <button
-                className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-130 makeStyles-green-131 MuiButton-containedSecondary"
+                className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-167 makeStyles-green-168 MuiButton-containedSecondary"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -1823,7 +2737,7 @@ Array [
             </div>
             <div>
               <button
-                className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-130 makeStyles-none-133 MuiButton-textSecondary"
+                className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-167 makeStyles-none-170 MuiButton-textSecondary"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -1850,25 +2764,25 @@ Array [
           </div>
         </li>
         <div
-          className="MuiDivider-root makeStyles-divider-125 MuiDivider-inset"
+          className="MuiDivider-root makeStyles-divider-162 MuiDivider-inset"
           role="separator"
         />
       </ul>
     </div>
-  </div>,
+  </div>
   <div
-    className="makeStyles-root-134"
+    className="makeStyles-root-171"
   >
     <div
-      className="MuiPaper-root makeStyles-paper-138 MuiPaper-elevation1 MuiPaper-rounded"
+      className="MuiPaper-root makeStyles-paper-175 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <h2
-        className="MuiTypography-root makeStyles-header-136 MuiTypography-h2"
+        className="MuiTypography-root makeStyles-header-173 MuiTypography-h2"
       >
         Suggestions
       </h2>
       <p
-        className="MuiTypography-root makeStyles-link-137 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-link-174 MuiTypography-body1"
       >
         <a
           className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -1889,23 +2803,23 @@ Array [
         className="MuiDivider-root"
       />
       <ul
-        className="MuiList-root makeStyles-list-135"
+        className="MuiList-root makeStyles-list-172"
       >
         <li
           className="MuiListItem-container"
         >
           <div
-            className="MuiListItem-root makeStyles-root-122 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
+            className="MuiListItem-root makeStyles-root-159 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
             disabled={false}
           >
             <div
-              className="MuiListItemAvatar-root makeStyles-Avatar-126 MuiListItemAvatar-alignItemsFlexStart"
+              className="MuiListItemAvatar-root makeStyles-Avatar-163 MuiListItemAvatar-alignItemsFlexStart"
             >
               <div
-                className="makeStyles-root-128"
+                className="makeStyles-root-165"
               >
                 <div
-                  className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-129"
+                  className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-166"
                 >
                   <img
                     className="MuiAvatar-img"
@@ -1915,7 +2829,7 @@ Array [
               </div>
             </div>
             <div
-              className="MuiListItemText-root makeStyles-primaryText-124 MuiListItemText-multiline"
+              className="MuiListItemText-root makeStyles-primaryText-161 MuiListItemText-multiline"
             >
               <span
                 className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
@@ -1926,7 +2840,7 @@ Array [
                 className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
               >
                 <span
-                  className="MuiTypography-root makeStyles-inline-123 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                  className="MuiTypography-root makeStyles-inline-160 MuiTypography-body2 MuiTypography-colorTextPrimary"
                 >
                   Nurse
                 </span>
@@ -1934,11 +2848,11 @@ Array [
             </div>
           </div>
           <div
-            className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-127"
+            className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-164"
           >
             <div>
               <button
-                className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-130 makeStyles-blue-132 MuiButton-containedSecondary"
+                className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-167 makeStyles-blue-169 MuiButton-containedSecondary"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -1979,24 +2893,24 @@ Array [
           </div>
         </li>
         <div
-          className="MuiDivider-root makeStyles-divider-125 MuiDivider-inset"
+          className="MuiDivider-root makeStyles-divider-162 MuiDivider-inset"
           role="separator"
         />
         <li
           className="MuiListItem-container"
         >
           <div
-            className="MuiListItem-root makeStyles-root-122 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
+            className="MuiListItem-root makeStyles-root-159 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
             disabled={false}
           >
             <div
-              className="MuiListItemAvatar-root makeStyles-Avatar-126 MuiListItemAvatar-alignItemsFlexStart"
+              className="MuiListItemAvatar-root makeStyles-Avatar-163 MuiListItemAvatar-alignItemsFlexStart"
             >
               <div
-                className="makeStyles-root-128"
+                className="makeStyles-root-165"
               >
                 <div
-                  className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-129"
+                  className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-166"
                 >
                   <img
                     className="MuiAvatar-img"
@@ -2006,7 +2920,7 @@ Array [
               </div>
             </div>
             <div
-              className="MuiListItemText-root makeStyles-primaryText-124 MuiListItemText-multiline"
+              className="MuiListItemText-root makeStyles-primaryText-161 MuiListItemText-multiline"
             >
               <span
                 className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
@@ -2017,7 +2931,7 @@ Array [
                 className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
               >
                 <span
-                  className="MuiTypography-root makeStyles-inline-123 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                  className="MuiTypography-root makeStyles-inline-160 MuiTypography-body2 MuiTypography-colorTextPrimary"
                 >
                   Consultant
                 </span>
@@ -2025,11 +2939,11 @@ Array [
             </div>
           </div>
           <div
-            className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-127"
+            className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-164"
           >
             <div>
               <button
-                className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-130 makeStyles-blue-132 MuiButton-containedSecondary"
+                className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-167 makeStyles-blue-169 MuiButton-containedSecondary"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -2070,24 +2984,24 @@ Array [
           </div>
         </li>
         <div
-          className="MuiDivider-root makeStyles-divider-125 MuiDivider-inset"
+          className="MuiDivider-root makeStyles-divider-162 MuiDivider-inset"
           role="separator"
         />
         <li
           className="MuiListItem-container"
         >
           <div
-            className="MuiListItem-root makeStyles-root-122 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
+            className="MuiListItem-root makeStyles-root-159 MuiListItem-alignItemsFlexStart MuiListItem-secondaryAction"
             disabled={false}
           >
             <div
-              className="MuiListItemAvatar-root makeStyles-Avatar-126 MuiListItemAvatar-alignItemsFlexStart"
+              className="MuiListItemAvatar-root makeStyles-Avatar-163 MuiListItemAvatar-alignItemsFlexStart"
             >
               <div
-                className="makeStyles-root-128"
+                className="makeStyles-root-165"
               >
                 <div
-                  className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-129"
+                  className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-166"
                 >
                   <img
                     className="MuiAvatar-img"
@@ -2097,7 +3011,7 @@ Array [
               </div>
             </div>
             <div
-              className="MuiListItemText-root makeStyles-primaryText-124 MuiListItemText-multiline"
+              className="MuiListItemText-root makeStyles-primaryText-161 MuiListItemText-multiline"
             >
               <span
                 className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
@@ -2108,7 +3022,7 @@ Array [
                 className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
               >
                 <span
-                  className="MuiTypography-root makeStyles-inline-123 MuiTypography-body2 MuiTypography-colorTextPrimary"
+                  className="MuiTypography-root makeStyles-inline-160 MuiTypography-body2 MuiTypography-colorTextPrimary"
                 >
                   Consultant
                 </span>
@@ -2116,11 +3030,11 @@ Array [
             </div>
           </div>
           <div
-            className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-127"
+            className="MuiListItemSecondaryAction-root makeStyles-buttonContainer-164"
           >
             <div>
               <button
-                className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-130 makeStyles-blue-132 MuiButton-containedSecondary"
+                className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-167 makeStyles-blue-169 MuiButton-containedSecondary"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -2161,13 +3075,13 @@ Array [
           </div>
         </li>
         <div
-          className="MuiDivider-root makeStyles-divider-125 MuiDivider-inset"
+          className="MuiDivider-root makeStyles-divider-162 MuiDivider-inset"
           role="separator"
         />
       </ul>
     </div>
-  </div>,
-]
+  </div>
+</div>
 `;
 
 exports[`Storyshots People/Templates/PeopleSidebar Sidebar 1`] = `
@@ -2176,35 +3090,35 @@ Array [
     className="sc-bdfBwQ gQFnY"
   >
     <h1
-      className="MuiTypography-root makeStyles-title-139 MuiTypography-h1"
+      className="MuiTypography-root makeStyles-title-176 MuiTypography-h1"
     >
       People
     </h1>
     <h3
-      className="MuiTypography-root makeStyles-subtitle-140 MuiTypography-h3"
+      className="MuiTypography-root makeStyles-subtitle-177 MuiTypography-h3"
     >
       20 contacts
     </h3>
   </header>,
   <div>
     <h3
-      className="MuiTypography-root makeStyles-header-141 MuiTypography-h3"
+      className="MuiTypography-root makeStyles-header-178 MuiTypography-h3"
     >
       My Contacts
     </h3>
     <hr
-      className="MuiDivider-root makeStyles-divider-142 MuiDivider-inset"
+      className="MuiDivider-root makeStyles-divider-179 MuiDivider-inset"
     />
     <div>
       <li
-        className="MuiListItem-root makeStyles-root-143 MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+        className="MuiListItem-root makeStyles-root-180 MuiListItem-gutters MuiListItem-alignItemsFlexStart"
         disabled={false}
       >
         <div
           className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
         >
           <div
-            className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-146 MuiAvatar-colorDefault"
+            className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-183 MuiAvatar-colorDefault"
           >
             <svg
               aria-hidden={true}
@@ -2219,7 +3133,7 @@ Array [
           </div>
         </div>
         <div
-          className="MuiListItemText-root makeStyles-primaryText-144 MuiListItemText-multiline"
+          className="MuiListItemText-root makeStyles-primaryText-181 MuiListItemText-multiline"
         >
           <span
             className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
@@ -2234,17 +3148,17 @@ Array [
         </div>
       </li>
       <hr
-        className="MuiDivider-root makeStyles-divider-145 MuiDivider-inset"
+        className="MuiDivider-root makeStyles-divider-182 MuiDivider-inset"
       />
       <li
-        className="MuiListItem-root makeStyles-root-143 MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+        className="MuiListItem-root makeStyles-root-180 MuiListItem-gutters MuiListItem-alignItemsFlexStart"
         disabled={false}
       >
         <div
           className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
         >
           <div
-            className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-146 MuiAvatar-colorDefault"
+            className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-183 MuiAvatar-colorDefault"
           >
             <svg
               aria-hidden={true}
@@ -2259,7 +3173,7 @@ Array [
           </div>
         </div>
         <div
-          className="MuiListItemText-root makeStyles-primaryText-144 MuiListItemText-multiline"
+          className="MuiListItemText-root makeStyles-primaryText-181 MuiListItemText-multiline"
         >
           <span
             className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
@@ -2274,24 +3188,24 @@ Array [
         </div>
       </li>
       <hr
-        className="MuiDivider-root makeStyles-divider-145 MuiDivider-inset"
+        className="MuiDivider-root makeStyles-divider-182 MuiDivider-inset"
       />
       <li
-        className="MuiListItem-root makeStyles-root-143 MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+        className="MuiListItem-root makeStyles-root-180 MuiListItem-gutters MuiListItem-alignItemsFlexStart"
         disabled={false}
       >
         <div
           className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
         >
           <div
-            className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-146 MuiAvatar-colorDefault"
+            className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-183 MuiAvatar-colorDefault"
           >
             <div
-              className="makeStyles-suggestWrapper-147"
+              className="makeStyles-suggestWrapper-184"
             >
               <svg
                 aria-hidden={true}
-                className="MuiSvgIcon-root makeStyles-suggestPeopleIcon-148 MuiSvgIcon-fontSizeSmall"
+                className="MuiSvgIcon-root makeStyles-suggestPeopleIcon-185 MuiSvgIcon-fontSizeSmall"
                 focusable="false"
                 viewBox="0 0 24 24"
               >
@@ -2312,7 +3226,7 @@ Array [
               </svg>
               <svg
                 aria-hidden={true}
-                className="MuiSvgIcon-root makeStyles-suggestSearchIcon-149 MuiSvgIcon-fontSizeSmall"
+                className="MuiSvgIcon-root makeStyles-suggestSearchIcon-186 MuiSvgIcon-fontSizeSmall"
                 focusable="false"
                 viewBox="0 0 24 24"
               >
@@ -2324,7 +3238,7 @@ Array [
           </div>
         </div>
         <div
-          className="MuiListItemText-root makeStyles-primaryText-144 MuiListItemText-multiline"
+          className="MuiListItemText-root makeStyles-primaryText-181 MuiListItemText-multiline"
         >
           <span
             className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
@@ -2339,15 +3253,9 @@ Array [
         </div>
       </li>
       <hr
-        className="MuiDivider-root makeStyles-divider-145 MuiDivider-inset"
+        className="MuiDivider-root makeStyles-divider-182 MuiDivider-inset"
       />
     </div>
   </div>,
 ]
-`;
-
-exports[`Storyshots Test/Index Text Component 1`] = `
-<div>
-  This is light theme
-</div>
 `;

@@ -1,9 +1,8 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
-import Layout from './components/Layout';
 import { createGenerateClassName, StylesProvider } from '@material-ui/core/styles';
 import CombinedContextProvider from './context';
-import TextComponent from './components/TextComponent';
+import PeoplePage from './components/People/pages/PeoplePage';
+import { CssBaseline } from '@material-ui/core';
 
 // We want to have prefixed class names
 const generateClassName = createGenerateClassName({
@@ -15,11 +14,8 @@ const SocialService = () => {
   return (
     <CombinedContextProvider>
       <StylesProvider generateClassName={generateClassName}>
-        <Layout>
-          <Grid item xs={12}>
-            <TextComponent />
-          </Grid>
-        </Layout>
+        <CssBaseline />
+        <PeoplePage />
       </StylesProvider>
     </CombinedContextProvider>
   );
