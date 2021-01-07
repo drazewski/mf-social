@@ -3259,9 +3259,3 @@ Array [
   </div>,
 ]
 `;
-
-exports[`Storyshots Test/Index Text Component 1`] = `
-<div>
-  This is light theme
-</div>
-`;
