@@ -5,7 +5,7 @@ import PeopleSidebar from '../templates/PeopleSidebar';
 
 
 export default function PeoplePage(): JSX.Element {
-
+    
     return (
         <>
             <Layout sidebarContent={<PeopleSidebar />}>

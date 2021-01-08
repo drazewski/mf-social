@@ -1,8 +1,8 @@
-import App from "./App";
+// import App from "./App";
 import React from "react";
 import ReactDOM from "react-dom";
 import { createMuiTheme } from '@material-ui/core/styles';
-import SocialService from "./App";
+import SocialService from "./SocialService";
 
 const theme = createMuiTheme({
   palette: {

@@ -5,7 +5,6 @@ import Divider from '@material-ui/core/Divider';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Icon from '../atoms/ContactIcon';
-import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles(() =>
   createStyles({

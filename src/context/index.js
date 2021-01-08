@@ -6,7 +6,7 @@ import { getThemeByName } from 'src/themes/themeSelector';
 
 const CombinedContextProvider = ({ children }) => {
   const [activeThemeName, setActiveThemeName] = useState();
-  const activeTheme = getThemeByName(activeThemeName);
+  const activeTheme = getThemeByName(activeThemeName || 'lightTheme');
 
   const handleThemeChanged = e => {
     setActiveThemeName(e.detail);
